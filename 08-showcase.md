@@ -1,0 +1,40 @@
+# Showcase
+
+Websites using Croogo (in alphabetical order).
+
+## Blogs
+
+* [42Pixels](http://www.42pixels.com): Jeremy Harris
+* [andrw](http://andrw.net): Andrew Weir
+* [calderonpale](http://calderonpale.com): Paulino Calderon
+* [edineicipriani](http://edineicipriani.com.br): Edinei L. Cipriani
+* [fahad19](http://fahad19.com): Fahad Ibnay Heylaal
+* [jacmoe](http://jacmoe.dk): Jacob Moen
+* [jairusmartin](http://jairusmartin.com): Jairus Martin
+* [jameslamiell](http://jameslamiell.com): James Lamiell
+* [jeremypalford](http://jeremypalford.com): Jeremy P Alford
+* [muXe](http://muxe.org): Max Dörfler
+* [pseudocoder](http://pseudocoder.com): Matt Curry
+* [shamce](http://shamce.net): Shawn McElroy
+* [shift8](http://www.shift8creative.com): Tom Maiaroto
+* [webzy](http://webzy.in): Zijad Redžić
+
+## Sites
+
+* [African Art Institute](http://www.afai.org.za)
+* [Banff International Research Station](http://birs.ca)
+* [CakeBase](http://cakebase.net)
+* [Children's Hospital Trust](http://childrenshospitaltrust.org.za)
+* [Custom Art Online](http://customartonline.com)
+* [Evoluted Conzept](http://www.evoluted.de)
+* [Fair Play 4 Africa](http://fairplayforafrica.org)
+* [Joanne Moloney Photography](http://joannemoloney.com.au)
+* [Lions eSportClub](http://lionsek.com)
+* [Next Plan Development Limited](http://www.npdbd.com/)
+* [Pixelsaurus](http://pixelsaur.us)
+* [PHP Matsuri](http://2010.phpmatsuri.net)
+* [PlanbookEdu](http://planbookedu.com/blog)
+* [Presidency University](http://sims.presidency.edu.bd)
+* [Sacema](http://www.sacema.com)
+* [Sumavanka](http://sumavanka.nl)
+* [The Code Bakery](http://thecodebakery.com)
