@@ -12,6 +12,7 @@
 * [Highlighter](http://github.com/jacmoe/highlighter) by Jacob Moen
 * [Language Selector](http://github.com/smarek/langbar) by Marek Sebera
 * [Markdown](http://fahad19.com/blog/markdown-plugin) by Fahad Ibnay Heylaal
+* [Markitup](http://github.com/jacmoe/markitup) by Jacob Moen
 * [Nodethumb](http://github.com/firecreek/nodethumb) by Darren Moore
 * [Ping Service](http://github.com/rayhan/ping_service) by Md. Rayhan Chowdhury
 * [Poll](http://github.com/chroposnos/poll) by Israel Segundo
@@ -26,6 +27,5 @@
 * [Cycle](http://www.shift8creative.com/blog/cycle-plugin) by Tom Maiaroto
 * [Geshi](http://github.com/phpedinei/geshi) by Edinei L. Cipriani
 * [Html Cache](http://github.com/mcurry/html_cache) by Matt Curry
-* [Markitup](http://github.com/jacmoe/markitup) by Jacob Moen
 * [Syntax](http://codaset.com/jeremyharris/croogo-syntax-plugin) by Jeremy Harris
 * [Tag Cloud](http://github.com/andruu/Croogo-Tagcloud-Plugin) by Andrew Weir
