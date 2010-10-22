@@ -20,12 +20,12 @@
 * [Typed Tags](http://scvgeo.com/blog/typed-tags-croogo-plugin) by Felipe Garcia Hernandez
 * [Video Widget](http://github.com/chroposnos/video_widget) by Israel Segundo
 * [Highlighter](http://github.com/jacmoe/highlighter) by Jacob Moen
+* [Markitup](http://github.com/jacmoe/markitup) by Jacob Moen
 
 #### Not compatible with the latest version of Croogo (yet)
 
 * [Cycle](http://www.shift8creative.com/blog/cycle-plugin) by Tom Maiaroto
 * [Geshi](http://github.com/phpedinei/geshi) by Edinei L. Cipriani
 * [Html Cache](http://github.com/mcurry/html_cache) by Matt Curry
-* [Markitup](http://github.com/jacmoe/markitup) by Jacob Moen
 * [Syntax](http://codaset.com/jeremyharris/croogo-syntax-plugin) by Jeremy Harris
 * [Tag Cloud](http://github.com/andruu/Croogo-Tagcloud-Plugin) by Andrew Weir
