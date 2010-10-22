@@ -11,6 +11,7 @@
 * [Gallery](http://github.com/phpedinei/gallery) by Edinei L. Cipriani
 * [Highlighter](http://github.com/jacmoe/highlighter) by Jacob Moen
 * [Language Selector](http://github.com/smarek/langbar) by Marek Sebera
+* [Lucene Search](http://github.com/palam/Croogo-Lucene-Search-Plugin) by Palaniappan Chellappan
 * [Markdown](http://fahad19.com/blog/markdown-plugin) by Fahad Ibnay Heylaal
 * [Markitup](http://github.com/jacmoe/markitup) by Jacob Moen
 * [Nodethumb](http://github.com/firecreek/nodethumb) by Darren Moore
