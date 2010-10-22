@@ -9,6 +9,7 @@
 * [Flattr](http://github.com/muxe/Croogo-Flattr-Plugin) by Max Dörfler
 * [Flickr Module](http://github.com/chroposnos/flickr_module) by Israel Segundo
 * [Gallery](http://github.com/phpedinei/gallery) by Edinei L. Cipriani
+* [Highlighter](http://github.com/jacmoe/highlighter) by Jacob Moen
 * [Language Selector](http://github.com/smarek/langbar) by Marek Sebera
 * [Markdown](http://fahad19.com/blog/markdown-plugin) by Fahad Ibnay Heylaal
 * [Nodethumb](http://github.com/firecreek/nodethumb) by Darren Moore
@@ -19,7 +20,6 @@
 * [Social Bookmarks](http://github.com/fahad19/social_bookmarks) by Fahad Ibnay Heylaal
 * [Typed Tags](http://scvgeo.com/blog/typed-tags-croogo-plugin) by Felipe Garcia Hernandez
 * [Video Widget](http://github.com/chroposnos/video_widget) by Israel Segundo
-* [Highlighter](http://github.com/jacmoe/highlighter) by Jacob Moen
 
 #### Not compatible with the latest version of Croogo (yet)
 
