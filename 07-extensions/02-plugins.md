@@ -22,6 +22,7 @@
 * [Poll](http://github.com/primeminister/poll) by Zijad Redžić and Charlie van de Kerkhof
 * [Sitemap](http://github.com/traedamatic/croogo_sitemap_plugin) by Nicolas Traeder
 * [Social Bookmarks](http://github.com/fahad19/social_bookmarks) by Fahad Ibnay Heylaal
+* [Swiff Editor](https://github.com/ProFire/Swiff-Editor-for-Croogo) by ProFire
 * [Texy](http://github.com/elcuro/texy) by Juraj Jancuska
 * [Typed Tags](http://scvgeo.com/blog/typed-tags-croogo-plugin) by Felipe Garcia Hernandez
 * [Video Widget](http://github.com/chroposnos/video_widget) by Israel Segundo
