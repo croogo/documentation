@@ -4,6 +4,7 @@
 
 * [Advertising](http://github.com/chroposnos/Advertising-Croogo-Plugin) by Israel Segundo
 * [CKEditor](http://github.com/Scoup/geecktec_ckeditor) by Léo Haddad
+* [CakeForms](https://github.com/shihab-alain/croogo-cakeforms/) by Sam Bernard
 * [Cumulus](http://github.com/chroposnos/cumulus) by Israel Segundo
 * [DebugKit](http://github.com/fahad19/debug_kit) by Mark Story
 * [eShop](http://github.com/elcuro/eshop) by Juraj Jancuska
