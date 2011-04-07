@@ -61,7 +61,7 @@ If you have your css file placed under /app/views/themed/my\_theme/webroot/css/t
 
 #### Javascript
 
-Croogo uses jQuery for all it's javascript related tasks, so you need to load this library before any other javascript:
+Croogo has a **Croogo** object in javascript that stores information like the application's base path, etc. This is useful for other javascript related tasks. It can done by calling a single method **$layout-&gt;js()**:
 
     <head>
         <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
@@ -69,19 +69,6 @@ Croogo uses jQuery for all it's javascript related tasks, so you need to load th
             echo $layout->meta();
             echo $layout->feed();
             echo $html->css(array('theme'));
-            echo $html->script(array('jquery/jquery.min'));
-        ?>
-    </head>
-
-Croogo also has a **Croogo** object in javascript that stores information like the application's base path, etc. This is useful for other javascript related tasks. It can done by calling a single method **$layout-&gt;js()**:
-
-    <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
-        <?php 
-            echo $layout->meta();
-            echo $layout->feed();
-            echo $html->css(array('theme'));
-            echo $html->script(array('jquery/jquery.min'));
             echo $layout->js();
         ?>
     </head>
@@ -94,7 +81,6 @@ CakePHP allows you to load javascript from your views so they go directly inside
             echo $layout->meta();
             echo $layout->feed();
             echo $html->css(array('theme'));
-            echo $html->script(array('jquery/jquery.min'));
             echo $layout->js();
             echo $scripts_for_layout;
         ?>
@@ -156,7 +142,6 @@ If you want to show the blocks that belong to **right** region, just add **$layo
                 echo $layout->meta();
                 echo $layout->feed();
                 echo $html->css(array('theme'));
-                echo $html->script(array('jquery/jquery.min'));
                 echo $layout->js();
                 echo $scripts_for_layout;
             ?>
