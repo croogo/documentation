@@ -5,6 +5,7 @@
 * [Advertising](http://github.com/chroposnos/Advertising-Croogo-Plugin) by Israel Segundo
 * [CakeForms](https://github.com/shihab-alain/croogo-cakeforms/) by Sam Bernard
 * [CKEditor](http://github.com/Scoup/geecktec_ckeditor) by Léo Haddad
+* [Clear Cache](https://github.com/fahad19/clear_cache) by Fahad  Ibnay Heylaal and Rick Guyer
 * [Cumulus](http://github.com/chroposnos/cumulus) by Israel Segundo
 * [DebugKit](http://github.com/fahad19/debug_kit) by Mark Story
 * [ElFinder](http://github.com/azzzy/Croogo-ElFinder-Plugin) by Daniel Alexandrov
