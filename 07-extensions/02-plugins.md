@@ -3,6 +3,7 @@
 #### Compatible with Croogo 1.3.2 or higher:
 
 * [Advertising](http://github.com/chroposnos/Advertising-Croogo-Plugin) by Israel Segundo
+* [Block Anywhere](https://github.com/firecreek/BlockAnywhere) by Darren Moore
 * [CakeForms](https://github.com/shihab-alain/croogo-cakeforms/) by Sam Bernard
 * [CKEditor](http://github.com/Scoup/geecktec_ckeditor) by Léo Haddad
 * [Clear Cache](https://github.com/fahad19/clear_cache) by Fahad  Ibnay Heylaal and Rick Guyer
@@ -24,6 +25,8 @@
 * [Ping Service](http://github.com/rayhan/ping_service) by Md. Rayhan Chowdhury
 * [Poll](http://github.com/chroposnos/poll) by Israel Segundo
 * [Poll](http://github.com/primeminister/poll) by Zijad Redžić and Charlie van de Kerkhof
+* [Resume](https://github.com/thoth/resume) by Thomas Rader
+* [Sites](https://github.com/rchavik/sites) by Rachman Chavik
 * [Sitemap](http://github.com/traedamatic/croogo_sitemap_plugin) by Nicolas Traeder
 * [Social Bookmarks](http://github.com/fahad19/social_bookmarks) by Fahad Ibnay Heylaal
 * [Swiff Editor](https://github.com/ProFire/Swiff-Editor-for-Croogo) by ProFire
