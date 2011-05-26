@@ -7,6 +7,7 @@
 * [CKEditor](http://github.com/Scoup/geecktec_ckeditor) by Léo Haddad
 * [Cumulus](http://github.com/chroposnos/cumulus) by Israel Segundo
 * [DebugKit](http://github.com/fahad19/debug_kit) by Mark Story
+* [ElFinder](http://github.com/azzzy/Croogo-ElFinder-Plugin) by Daniel Alexandrov
 * [eShop](http://github.com/elcuro/eshop) by Juraj Jancuska
 * [Flattr](http://github.com/muxe/Croogo-Flattr-Plugin) by Max Dörfler
 * [Flickr Module](http://github.com/chroposnos/flickr_module) by Israel Segundo
