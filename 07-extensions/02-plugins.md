@@ -8,6 +8,7 @@
 * [Cumulus](http://github.com/chroposnos/cumulus) by Israel Segundo
 * [DebugKit](http://github.com/fahad19/debug_kit) by Mark Story
 * [eShop](http://github.com/elcuro/eshop) by Juraj Jancuska
+* [Events](http://github.com/thoth/event) by Thomas Rader
 * [Flattr](http://github.com/muxe/Croogo-Flattr-Plugin) by Max Dörfler
 * [Flickr Module](http://github.com/chroposnos/flickr_module) by Israel Segundo
 * [Gallery](http://github.com/phpedinei/gallery) by Edinei L. Cipriani
