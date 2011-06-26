@@ -22,7 +22,7 @@ This is where your page title, meta information, css, javascript info are shown.
 **$title\_for\_layout** variable is set from your controller (can be done from views too). And **Configure::read('Site.title')** is your website's title that you can set from admin panel under **Settings &gt; Site**.
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
     </head>
 
 #### Meta tags
@@ -30,7 +30,7 @@ This is where your page title, meta information, css, javascript info are shown.
 This is as simple as calling a method from LayoutHelper. **$layout->meta()** outputs all meta tags for your content.
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
         <?php echo $layout->meta(); ?>
     </head>
 
@@ -39,7 +39,7 @@ This is as simple as calling a method from LayoutHelper. **$layout->meta()** out
 **$layout->feed()** will output your RSS feed link for your promoted content.
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
         <?php 
             echo $layout->meta();
             echo $layout->feed();
@@ -51,7 +51,7 @@ This is as simple as calling a method from LayoutHelper. **$layout->meta()** out
 If you have your css file placed under /app/views/themed/my\_theme/webroot/css/theme.css:
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
         <?php 
             echo $layout->meta();
             echo $layout->feed();
@@ -64,7 +64,7 @@ If you have your css file placed under /app/views/themed/my\_theme/webroot/css/t
 Croogo has a **Croogo** object in javascript that stores information like the application's base path, etc. This is useful for other javascript related tasks. It can done by calling a single method **$layout-&gt;js()**:
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
         <?php 
             echo $layout->meta();
             echo $layout->feed();
@@ -76,7 +76,7 @@ Croogo has a **Croogo** object in javascript that stores information like the ap
 CakePHP allows you to load javascript from your views so they go directly inside HEAD. For this, you need to echo out the variable **$scripts\_for\_layout**.
 
     <head>
-        <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+        <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
         <?php 
             echo $layout->meta();
             echo $layout->feed();
@@ -137,7 +137,7 @@ If you want to show the blocks that belong to **right** region, just add **$layo
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
         <head>
-            <title><?php echo $title_for_layout ' | ' . Configure::read('Site.title'); ?></title>
+            <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
             <?php 
                 echo $layout->meta();
                 echo $layout->feed();
