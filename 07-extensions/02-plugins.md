@@ -26,6 +26,7 @@
 * [Poll](http://github.com/chroposnos/poll) by Israel Segundo
 * [Poll](http://github.com/primeminister/poll) by Zijad Redžić and Charlie van de Kerkhof
 * [Resume](https://github.com/thoth/resume) by Thomas Rader
+* [Route] (https://github.com/deplorable/Croogo_Plugins_Route) by Damian Grant
 * [Sites](https://github.com/rchavik/sites) by Rachman Chavik
 * [Sitemap](http://github.com/traedamatic/croogo_sitemap_plugin) by Nicolas Traeder
 * [Social Bookmarks](http://github.com/fahad19/social_bookmarks) by Fahad Ibnay Heylaal
