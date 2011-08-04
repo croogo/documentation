@@ -1,8 +1,7 @@
 [
-    "index",
     "content-types",
     "taxonomy",
-    "customf-fields",
+    "custom-fields",
 	"meta-tags",
 	"multilingual"
 ]
