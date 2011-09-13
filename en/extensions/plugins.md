@@ -10,6 +10,7 @@
 * [Cumulus](http://github.com/chroposnos/cumulus) by Israel Segundo
 * [DebugKit](http://github.com/fahad19/debug_kit) by Mark Story
 * [Did you mean?](https://github.com/vistik/Cakephp-DidYouMean) by Visti Kløft
+* [DX Image Box](https://github.com/mpeshev/dximagebox-croogo) by Mario Peshev
 * [ElFinder](http://github.com/azzzy/Croogo-ElFinder-Plugin) by Daniel Alexandrov
 * [eShop](http://github.com/elcuro/eshop) by Juraj Jancuska
 * [Events](http://github.com/thoth/event) by Thomas Rader
