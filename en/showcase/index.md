@@ -25,6 +25,9 @@ Websites using Croogo (in alphabetical order).
 
 ## Sites
 
+* [Cursos Vibe Mídia](http://cursos.vibemidia.com)
+* [Créditos ADPHONE](http://creditosadphone.com.br)
+* [Cálculo de Frete](http://calculodefrete.com)
 * [7Degrees University](http://7degrees.org)
 * [African Art Institute](http://www.afai.org.za)
 * [Alabama House of Horrors](http://alabamahouseofhorrors.com)
