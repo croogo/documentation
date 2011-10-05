@@ -25,9 +25,6 @@ Websites using Croogo (in alphabetical order).
 
 ## Sites
 
-* [Cursos Vibe Mídia](http://cursos.vibemidia.com)
-* [Créditos ADPHONE](http://creditosadphone.com.br)
-* [Cálculo de Frete](http://calculodefrete.com)
 * [7Degrees University](http://7degrees.org)
 * [African Art Institute](http://www.afai.org.za)
 * [Alabama House of Horrors](http://alabamahouseofhorrors.com)
@@ -40,13 +37,16 @@ Websites using Croogo (in alphabetical order).
 * [Britannia Pool League](http://britannia-pool.net/)
 * [Burleson Carrier Company](http://www.bccfreight.com/)
 * [CakeBase](http://cakebase.net)
+* [Cálculo de Frete](http://calculodefrete.com)
 * [Calzedonia](http://www.calzedonia.co.uk)
 * [Cape Town Tandem Paragliding](http://www.paraglide.co.za)
 * [Children's Hospital Trust](http://childrenshospitaltrust.org.za)
 * [CHRO 2011](http://www.chro2011.com)
 * [Coco Brooks Pizza](http://cocobrooks.com)
 * [Colorado Ski Resorts](http://www.coloradoski.com)
+* [Créditos ADPHONE](http://creditosadphone.com.br)
 * [Crimson Chakra](http://crimsonchakra.in)
+* [Cursos Vibe Mídia](http://cursos.vibemidia.com)
 * [Custom Art Online](http://customartonline.com)
 * [End of The World Workouts](http://www.endoftheworldworkouts.com/)
 * [Evoluted Conzept](http://www.evoluted.de)
