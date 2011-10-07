@@ -8,7 +8,6 @@ Websites using Croogo (in alphabetical order).
 * [andrw](http://andrw.net): Andrew Weir
 * [brunocassol](http://brunocassol.com): Bruno Cassol
 * [calderonpale](http://calderonpale.com): Paulino Calderon
-* [edineicipriani](http://edineicipriani.com.br): Edinei L. Cipriani
 * [fahad19](http://fahad19.com): Fahad Ibnay Heylaal
 * [jairusmartin](http://jairusmartin.com): Jairus Martin
 * [jameslamiell](http://jameslamiell.com): James Lamiell
