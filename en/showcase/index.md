@@ -8,7 +8,6 @@ Websites using Croogo (in alphabetical order).
 * [andrw](http://andrw.net): Andrew Weir
 * [brunocassol](http://brunocassol.com): Bruno Cassol
 * [calderonpale](http://calderonpale.com): Paulino Calderon
-* [edineicipriani](http://edineicipriani.com.br): Edinei L. Cipriani
 * [fahad19](http://fahad19.com): Fahad Ibnay Heylaal
 * [jairusmartin](http://jairusmartin.com): Jairus Martin
 * [jameslamiell](http://jameslamiell.com): James Lamiell
@@ -37,13 +36,16 @@ Websites using Croogo (in alphabetical order).
 * [Britannia Pool League](http://britannia-pool.net/)
 * [Burleson Carrier Company](http://www.bccfreight.com/)
 * [CakeBase](http://cakebase.net)
+* [Cálculo de Frete](http://calculodefrete.com)
 * [Calzedonia](http://www.calzedonia.co.uk)
 * [Cape Town Tandem Paragliding](http://www.paraglide.co.za)
 * [Children's Hospital Trust](http://childrenshospitaltrust.org.za)
 * [CHRO 2011](http://www.chro2011.com)
 * [Coco Brooks Pizza](http://cocobrooks.com)
 * [Colorado Ski Resorts](http://www.coloradoski.com)
+* [Créditos ADPHONE](http://creditosadphone.com.br)
 * [Crimson Chakra](http://crimsonchakra.in)
+* [Cursos Vibe Mídia](http://cursos.vibemidia.com)
 * [Custom Art Online](http://customartonline.com)
 * [End of The World Workouts](http://www.endoftheworldworkouts.com/)
 * [Evoluted Conzept](http://www.evoluted.de)
