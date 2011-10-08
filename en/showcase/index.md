@@ -61,6 +61,7 @@ Websites using Croogo (in alphabetical order).
 * [Lunch of The Day](http://lunchoftheday.com)
 * [Master's Commission International Conference](http://conference.mcin.org)
 * [Master's Commission USA](http://masterscommissionusa.com)
+* [Morocco league E-journal](http://www.botolati.com)
 * [Next Plan Development Limited](http://www.npdbd.com/)
 * [Pixelsaurus](http://pixelsaur.us)
 * [PKN Chennai](http://pknchennai.com)
