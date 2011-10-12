@@ -32,6 +32,7 @@
 * [Sites](https://github.com/rchavik/sites) by Rachman Chavik
 * [Sitemap](http://github.com/traedamatic/croogo_sitemap_plugin) by Nicolas Traeder
 * [Social Bookmarks](http://github.com/fahad19/social_bookmarks) by Fahad Ibnay Heylaal
+* [Socialprivacy] (https://github.com/muxe/croogo-socialprivacy) by Max Dörfler
 * [Swiff Editor](https://github.com/ProFire/Swiff-Editor-for-Croogo) by ProFire
 * [Texy](http://github.com/elcuro/texy) by Juraj Jancuska
 * [Typed Tags](http://scvgeo.com/blog/typed-tags-croogo-plugin) by Felipe Garcia Hernandez
