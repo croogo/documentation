@@ -1,5 +1,10 @@
 # Plugins
 
+#### Compatible with Croogo 1.4:
+
+* [Megamenu](https://github.com/rchavik/megamenu) by Rachman Chavik
+* [Route](https://github.com/deplorable/Croogo_Plugins_Route) by Damian Grant
+
 #### Compatible with Croogo 1.3.2 or higher:
 
 * [Advertising](http://github.com/chroposnos/Advertising-Croogo-Plugin) by Israel Segundo
