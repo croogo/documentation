@@ -5,13 +5,13 @@ A theme.json file is required for every theme in Croogo. This is required becaus
 Content of an example theme.json file at app/View/Themed/MyTheme/webroot/theme.json below:
 
     {
-      "name" : "Default",
-      "description" : "Default theme for Croogo",
+      "name" : "Sample",
+      "description" : "Sample theme for Croogo",
       "screenshot" : "screenshot.png",
 
-      "author" : "Fahad Ibnay Heylaal",
-      "authorEmail" : "contact@fahad19.com",
-      "authorUrl" : "http://fahad19.com",
+      "author" : "Author Name",
+      "authorEmail" : "author@email.com",
+      "authorUrl" : "http://authorswebsite.com",
 
       "menus" : [
         "main",
