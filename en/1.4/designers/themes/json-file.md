@@ -2,7 +2,7 @@
 
 A theme.json file is required for every theme in Croogo. This is required because themes can store useful information like menus and regions it uses, and this way it allows Croogo to query the database and make these information available to the theme without breaking MVC.
 
-Content of an example theme.json file at app/View/Themed/MyTheme/webroot/theme.json below:
+Content of an example theme.json file found at app/View/Themed/MyTheme/webroot/theme.json is shown below:
 
     {
       "name" : "Default",
@@ -25,7 +25,7 @@ Content of an example theme.json file at app/View/Themed/MyTheme/webroot/theme.j
 
 * **name**: your theme's name
 * **description**: your theme's description
-* **screenshot**: a small preview of your theme placed under app/views/themed/my\_theme/webroot/img/screenshot.png
+* **screenshot**: a small preview of your theme placed under app/View/Themed/MyTheme/webroot/img/screenshot.png
 * **author**: your name
 * **authorEmail**: your email
 * **authorUrl**: your website
