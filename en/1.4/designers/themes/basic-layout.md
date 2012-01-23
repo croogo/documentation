@@ -149,15 +149,15 @@ If you want to show the blocks that belong to **right** region, just add **$layo
         
         <body>
             <div id="nav">
-            <?php echo $this->Layout->menu('main'); ?>
+                <?php echo $this->Layout->menu('main'); ?>
             </div>
         
             <div id="content">
-            <?php echo $content_for_layout; ?>
+                <?php echo $content_for_layout; ?>
             </div>
         
             <div id="sidebar">
-            <?php echo $this->Layout->blocks('right'); ?>
+                <?php echo $this->Layout->blocks('right'); ?>
             </div>
         </body>
     </html>
