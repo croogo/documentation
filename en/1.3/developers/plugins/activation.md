@@ -43,6 +43,6 @@ Plugins may require to perform some tasks when they are activated or deactivated
         }
     }
 
-For a more detailed explanation, you can see [ExampleActivation](http://github.com/croogo/croogo/blob/master/plugins/example/config/example_activation.php) class from the repostiory.
+For a more detailed explanation, you can see [ExampleActivation](http://github.com/croogo/croogo/blob/master/plugins/example/config/example_activation.php) class from the repository.
 
 **Note**: Activation class for plugins is optional and is required only when you need to perform tasks when the plugin is activated or deactivated.

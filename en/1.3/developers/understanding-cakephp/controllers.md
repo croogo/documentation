@@ -38,7 +38,7 @@ Returning to our online bakery example, our RecipesController might contain the 
 
 #### Plugin controllers
 
-If it is Recipes plugin's controller, it would be found at /app/plugins/receipes/controllers/recipes\_controller.php.
+If it is Recipes plugin's controller, it would be found at /app/plugins/recipes/controllers/recipes\_controller.php.
 
 ## How to see it in action?
 

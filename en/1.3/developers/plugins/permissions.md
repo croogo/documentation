@@ -1,6 +1,6 @@
 # Plugin Permissions
 
-To automatically add your controller and methods to the Permissions list inside Croogo and possibly set custom permissions during actication, you will use the addAco() method of the Croogo component. For example, if you have a plugin named *Acme* that has a controller named *acme_widgets* with *admin_index* and *add* methods, you would put something like this into the onActivation method of app/plugins/acme/config/acme_activation.php: 
+To automatically add your controller and methods to the Permissions list inside Croogo and possibly set custom permissions during activation, you will use the addAco() method of the Croogo component. For example, if you have a plugin named *Acme* that has a controller named *acme_widgets* with *admin_index* and *add* methods, you would put something like this into the onActivation method of app/plugins/acme/config/acme_activation.php: 
 
 	public function onActivation(&$controller) {
 		$controller->Croogo->addAco('AcmeWidgets');
