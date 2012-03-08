@@ -2,6 +2,7 @@
 
 Requires Croogo 1.3.x or higher
 
+* [Bootstrap](https://github.com/thoth/bootstrap) by Thomas Rader
 * [DarkOne](http://github.com/smarek/DarkOne) by Marek Sebera
 * [HopelessArt](https://github.com/PascalPrecht/themes) by Pascal Precht
 * [Indicator](https://github.com/vitorpc/Indicator) by Vitor Pacheco
