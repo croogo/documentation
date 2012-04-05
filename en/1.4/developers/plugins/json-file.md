@@ -4,21 +4,21 @@ A plugin.json file is required for every plugin in Croogo that requires to be ac
 
 If your plugin's name is **Example**, the content of [plugin.json](http://github.com/croogo/croogo/blob/1.4/Plugin/Example/Config/plugin.json) file at app/Plugin/Example/Config/plugin.json could be:
 
-{
-    "name": "Example",
-    "description": "Example plugin for demonstrating hook system",
+    {
+        "name": "Example",
+        "description": "Example plugin for demonstrating hook system",
 
-    "author": "Author Name"
-    "authorEmail": "author@example.com"
-    "authorUrl": "http://example.com"
+        "author": "Author Name"
+        "authorEmail": "author@example.com"
+        "authorUrl": "http://example.com"
 
-    "dependencies": {
-      "plugins": [
-        "acl",
-        "extensions"
-        ]
-      }
-}
+        "dependencies": {
+          "plugins": [
+            "acl",
+              "extensions"
+              ]
+            }
+    }
 
 * **name**: your plugin's name
 * **description**: your plugin's description
