@@ -28,6 +28,6 @@ A plugin is identified by it’s unique alias. If you have your plugin under the
       * img/
       * js/
 
-Do not forget the [plugin.json](1.4/developers/plugin/json-file) file. This is required, otherwise the plugin will not be available in admin panel for activation.
+Do not forget the [plugin.json](json-file) file. This is required, otherwise the plugin will not be available in admin panel for activation.
 
 A full working plugin is available in the [repository](http://github.com/croogo/croogo/tree/1.4/Plugin/Example).
