@@ -1,6 +1,6 @@
 # 1.4
 
-Croogo v1.4.x is initially going to be a direct migration from v1.3.x. It will also upgrade the CakePHP framework from 1.3 to 2.0
+Croogo v1.4.x is initially going to be a direct migration from v1.3.x. It will also upgrade the CakePHP framework from 1.3 to 2.1
 
 It currently has its first beta release for early developer testing.  Whilst in beta release, the code is subject to regular and sometimes significant changes.  
 
