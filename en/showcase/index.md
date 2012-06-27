@@ -82,3 +82,4 @@ Websites using Croogo (in alphabetical order).
 * [The Code Bakery](http://thecodebakery.com)
 * [Trade Vault](http://trade-vault.com)
 * [Traffick911](http://www.traffick911.com)
+* [Xintesa](http://xintesa.com)
