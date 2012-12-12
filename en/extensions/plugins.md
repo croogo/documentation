@@ -2,6 +2,7 @@
 
 #### Compatible with Croogo 1.4:
 
+* [Events](https://github.com/thoth/event) by Thomas Rader
 * [Megamenu](https://github.com/rchavik/megamenu) by Rachman Chavik
 * [Route](https://github.com/deplorable/Croogo_Plugins_Route) by Damian Grant
 
