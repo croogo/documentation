@@ -4,7 +4,7 @@ Websites using Croogo (in alphabetical order).
 
 ## Blogs
 
-* [42Pixels](http://www.42pixels.com): Jeremy Harris
+* [jeremyharris](http://www.someguyjeremy.com): Jeremy Harris
 * [andrw](http://andrw.net): Andrew Weir
 * [brunocassol](http://brunocassol.com): Bruno Cassol
 * [calderonpale](http://calderonpale.com): Paulino Calderon
