@@ -3,7 +3,7 @@
 ## 1.5.x
 
 * Plugin download/finder via shell (the CPM - package management idea)
-* Default theme: use Twitter Bootstrap
+* ~~Default theme: use Twitter Bootstrap~~ (default theme will not be changed)
 * Admin theme: use Twitter Bootstrap here too? *in progress* **(aymeric and real34 - occitech)**
 * Node Preview indicator, display published nodes that has preview flag set for admins.
 * Defaults to InnoDb storage engine for mysql
