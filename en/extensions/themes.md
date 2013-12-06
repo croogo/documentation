@@ -1,6 +1,6 @@
 # Themes
 
-Requires Croogo 1.3.x or higher
+Requires Croogo 1.3.x (These themes will not work out of the box with Croogo >= 1.4.x)
 
 * [Bootstrap](https://github.com/thoth/bootstrap) by Thomas Rader
 * [DarkOne](http://github.com/smarek/DarkOne) by Marek Sebera
