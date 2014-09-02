@@ -4,7 +4,6 @@ Aqui é onde você encontra e contribue para a documentação do Croogo.
 
 ## Contribuindo
 
-This wiki itself is a collection of organized [markdown](http://daringfireball.net/projects/markdown/) files.
+A própria wiki é uma coleção organizada de arquivos [markdown](http://daringfireball.net/projects/markdown/).
 
-
-To contribute, please fork the repository at [https://github.com/croogo/documentation](https://github.com/croogo/documentation).
+Para contribuir, por favor faça um fork do repositório em [https://github.com/croogo/documentation](https://github.com/croogo/documentation).

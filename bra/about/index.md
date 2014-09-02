@@ -1,5 +1,5 @@
-# About
+# Sobre
 
-**Croogo** is a free, open source, content management system for PHP, released under The MIT License. It is powered by CakePHP MVC framework.
+**Croogo** é um sistema de gerenciamento de conteúdo para PHP livre, e de código fonte aberto, lançado sobre a Licença MIT. Ele é baseado no Framework MVC CakePHP.
 
-It was first released on October 07, 2009 by [Fahad Ibnay Heylaal](http://fahad19.com).
+Foi lançado pela primeira vez em 07 de Outubro de 2009, por [Fahad Ibnay Heylaal](http://fahad19.com)
