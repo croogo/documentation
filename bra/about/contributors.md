@@ -1,3 +1,3 @@
-# Contributors
+# Contribuidores
 
-To see a full list of contributors to the core, visit [GitHub](http://github.com/croogo/croogo/contributors).
+Para ver a lista completa de contribuidores do core, visite [GitHub](http://github.com/croogo/croogo/contributors).
