@@ -1,0 +1,10 @@
+[
+    "file-structure",
+	"yaml-file",
+	"activation",
+	"bootstrap",
+	"hooks",
+	"routes",
+	"packaging",
+	"permissions"
+]
