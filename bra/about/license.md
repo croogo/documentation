@@ -1,24 +1,23 @@
-# License
+# Licença
 
-The MIT License
+A Licença MIT
 
-Croogo : A CakePHP powered Content Management System (http://www.croogo.org)  
-Copyright 2010, Fahad Ibnay Heylaal &lt;contact@fahad19.com&gt;
+Croogo: Um Sistema de Gerenciamento de Conteúdo baseado no CakePHP (http://www.croogo.org)
+Direitos do autor 2010, Fahad Ibnay Heylaal &lt;contact@fahad19.com&gt;
 
-Permission is hereby granted, free of charge, to any person obtaining a
-copy of this software and associated documentation files (the "Software"),
-to deal in the Software without restriction, including without limitation
-the rights to use, copy, modify, merge, publish, distribute, sublicense,
-and/or sell copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following conditions:
+A permissão é concedida, a título gratuito, a qualquer pessoa que obtenha uma
+cópia deste software e arquivos de documentação associados (o "Software"),
+para lidar com o Software sem restrição, incluindo, sem limitação
+os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar,
+e / ou vender cópias do Software, e permitir que as pessoas a quem o
+O software é fornecido façam isso, sujeito às seguintes condições:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em
+todas as cópias ou partes substanciais do Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+IMPLÍCITA, INCLUINDO, SEM LIMITAÇÃO, AS GARANTIAS DE COMERCIALIZAÇÃO,
+ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO A
+AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRAS
+RESPONSABILIDADES, SEJA EM UMA AÇÃO DE CUMPRIMENTO DE CONTRATO OU DE OUTRA FORMA, DECORRENTES
+DE, OU EM LIGAÇÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.
