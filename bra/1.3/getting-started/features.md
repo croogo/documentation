@@ -1,7 +1,7 @@
-# Features
+# Recursos
 
 * Content
-   * Content Types: You can create your own content type
+   * Content Types: Você pode criar seu próprio tipo de conteúdo
       * Blog
       * Node
       * Page 
