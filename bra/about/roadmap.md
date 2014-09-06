@@ -3,13 +3,13 @@
 ## 1.5.x
 
 * Plugin download/finder via shell (the CPM - package management idea)
-* ~~Default theme: use Twitter Bootstrap~~ (default theme will not be changed)
-* Admin theme: use Twitter Bootstrap here too? *in progress* **(aymeric and real34 - occitech)**
-* Node Preview indicator, display published nodes that has preview flag set for admins.
-* Defaults to InnoDb storage engine for mysql
-* Plugin Activation ordering and presentation in plugin list
-* Migration plugin (cakedc) can be use for installation, and plugins. create and update tables between versions, setup default/baseline data [http://croogo.lighthouseapp.com/projects/32818/tickets/258] *in progress* **(aymeric and real34 - occitech)**
-* Helpers to create UI components markups, eg: tabs, accordion, panels.  Mostly for /admin *in progress* **(aymeric and real34 - occitech)**
+* ~~Tema padrão: usa Twitter Bootstrap~~ (Tema padrão não sserá alterado)
+* Tema Admin: usa Twitter Bootstrap também? *em desenvolvimento* **(aymeric and real34 - occitech)**
+* Indicador de pré-visualização de Node, mostra nodes publicados com a flag de pré-visualização marcado pelos admins.
+* Padrão InnoDb para mecanismo de armazenamento para mysql
+* Ordenação da Ativação de Plugin e apresentação na lista de plugin
+* Plugin Migration (cakedc) pode ser usado para instalação, e de plugins. Criar e atualizar tabelas entre versões, configurar dados padrão/base [http://croogo.lighthouseapp.com/projects/32818/tickets/258] *em desenvolvimento* **(aymeric and real34 - occitech)**
+* Helpers para criar marcações para componentes UI, ex: tabs, accordion, panels.  Principalmente para /admin *em desenvolvimento* **(aymeric and real34 - occitech)**
 * ~~Pluginify the File Manager, add better folder security~~ **(shama)**
 * ~~Pluginify Blocks~~ **(shama)**
 * ~~Pluginify Taxonomy~~ **(shama)**
