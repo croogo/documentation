@@ -13,22 +13,22 @@
 * ~~Pluginify the File Manager, add better folder security~~ **(shama)**
 * ~~Pluginify Blocks~~ **(shama)**
 * ~~Pluginify Taxonomy~~ **(shama)**
-* Replace Email Component with CakeEmail and move to models
-* Move functionality in NodesController to the model
-* Move CommentsController::add() functionality to model
-* Move AttachmentsController::admin_add functionality to model
-* Move non-controller CroogoComponent functionality to a Lib
-* ~~Pluginify User management (extract as plugin)~~ **(rchavik)**
-* Allow integration of third party auth, eg: twitter oauth, facebook, ldap,
-* ~~Replace Config/settings.yml to Config/settings.json, remove spyc from Vendor~~ **(rchavik)**
+* Trocado Email Component com CakeEmail e movido para model
+* Movido funcionalidade em NodesController para o model
+* Movido funcionalidade CommentsController::add() para model
+* Movido funcionalidade AttachmentsController::admin_add para model
+* Movido funcionalidade sem controller CroogoComponent para uma Lib
+* ~~Pluginify User management (extraído como plugin)~~ **(rchavik)**
+* Permitido integração de autenticação de terceiros, eg: twitter oauth, facebook, ldap,
+* ~~Trocado Config/settings.yml para Config/settings.json, removido spyc do Vendor~~ **(rchavik)**
 
 ## 2.0.x
 
-* Fully Pluginize: Croogo can become a set of plugins and a minimalist app that simply installs the default plugin set for easy installation.
-* Add namespaces
-* PSR-0 and PSR-1 Compat
-* Use composer.json instead of Config/plugin.json for extensions
-* Offer RESTful API by core, to allow easy integration with third-party apps (could be an iPhone app too)
-* Allow admins to update Croogo from admin panel (HTTP download, or backed by Git?)
+* Fully Pluginize: Croogo pode tornar-se um conjunto de plugins e um aplicativo minimalista que simplesmente instala o conjunto de plugins padrão para fácil instalação.
+* Adicionado namespaces
+* Compatível PSR-0 e PSR-1
+* Use composer.json em vez de Config/plugin.json para extensões
+* Oferece RESTful API por core, para permitir a fácil integração com aplicativos de terceiros ( pode ser uma aplicação iPhone também )
+* Permite admins atualizar o Croogo pelo painel admin (HTTP download, ou pelo Git?)
 * ~~Granular ACL~~ **(rchavik)**
 * [Plugin] Contents: Nodes going out, forming a Contents plugin.
