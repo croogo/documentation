@@ -1,36 +1,36 @@
 # Recursos
 
-* Content
-   * Content Types: Você pode criar seu próprio tipo de conteúdo
+* Conteúdo
+   * Tipos de Conteúdo: Você pode criar seus próprios tipos de conteúdo
       * Blog
       * Node
-      * Page 
-   * Taxonomy: Categorization of your content
-   * WYSIWYG Editor
-      * Attachments (for image and file uploads) 
-   * Comments
-      * Threaded comments
-      * Email notification
-      * Moderation
-      * Spam protection (requires Akismet API key)
-      * Captcha (requires Recaptcha API key) 
-   * Syndication: RSS feeds for
-      * Individual content types
-      * All promoted items
-      * Comments 
+      * Página 
+   * Taxonomia: Categorização de seu conteúdo
+   * Editor WYSIWYG
+      * Anexos (para imagem e arquivos enviados)
+   * Comentários
+      * Comentário em linha
+      * Notificações de Email
+      * Moderação
+      * Proteção contra Spam (requer Chave API Akismet )
+      * Captcha (requer Chave API Recaptcha ) 
+   * Incorporado: RSS feeds para
+      * Tipo de conteúdo individual
+      * Todos items promovidos
+      * Comentários
    * SEO
-      * Search engine friendly URLs
-      * Full control over meta tags 
-   * Custom fields 
-* Menu Manager
-* Blocks
-* Contact forms
-  * Email notification
-  * Messages archive
-  * Spam protection (requires Akismet API key)
-  * Captcha (requires Recaptcha API key) 
-* File Manager
-* Users
-  * ACL Manager (Permissions) 
-* Themes
-* Web based administration
+      * Motor de busca amigável para URLs
+      * Controle completo sobre meta tags
+   * Campos personalizados
+* Gerenciador de Menu
+* Blocos
+* Formulário de contato
+  * Notificação de Email
+  * Arquivos de mensagens
+  * Proteção contra Spam(requer Chave API Akismet )
+  * Captcha (requer Chave API Recaptcha ) 
+* Gerenciador de Arquivos
+* Usuários
+  * Gerenciador de ACL (Permissões) 
+* Temas
+* Administração baseada na Web
