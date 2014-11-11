@@ -1,35 +1,35 @@
-# Installation
+# Instalação
 
-After [downloading the latest version](http://github.com/croogo/croogo/downloads), extract the zip archive and upload the content to your server.
+Após [download da última versão](http://github.com/croogo/croogo/downloads), extrair o zip do arquivo e enviar o conteúdo para seu servidor.
 
-**Permissions**: CakePHP uses the /app/tmp directory for a number of different operations. Model descriptions, cached views, and session information are just a few examples. As such, make sure the /app/tmp directory in your cake installation is writable by the web server user.
+**Permissões**: CakePHP usa a pasta /app/tmp para um número de diferentes operações. Descrições do Model, cache das views, e informações da sessão são apenas alguns exemplos. Então, certifique-se que a pasta /app/tmp da sua instalação do cake, esteja editável pelo usuário do servidor web.
 
-#### Web based installer
+#### Instalador baseado na web
 
-* Visit http://your-site.com/ from your browser and follow the instructions
+* Visite http://your-site.com.br/ pelo seu navegador e siga as instruções
 
-#### Manual installation
+#### Instalação Manual
 
-* Create a new MySQL database (‘utf8_unicode_ci’ collation), and use these two SQL dump files in given order:
+* Criar um novo banco de dados MySQL (`utf8_unicode_ci`collaction), e use estes dois arquivos SQL dump na seguinte ordem:
    * app/config/schema/sql/croogo.sql
    * app/config/schema/sql/croogo_data.sql
-* Rename:
-   * app/config/database.php.install to database.php, and edit the details.
-   * app/config/settings.yml.install to settings.yml
-* You can access your admin panel at http://your-site.com/admin. Login details below:
+* Renomeie:
+   * app/config/database.php.install para database.php, e edite os detalhes.
+   * app/config/settings.yml.install para settings.yml
+* Você pode acessar seu painel administrativo em http://your-site.com/admin. Detalhes do Login abaixo:
    * username: admin
    * password: password
 
-It is recommended that you install Croogo using the web based installer for security reasons.
+É recomendado que você instale o Croogo usando o instalador baseado na web por razões de segurança.
 
-## Cloning the git repository
+## Clonando o repositório git
 
-[Repository](http://github.com/croogo/croogo) contains 'app' directory only. You need to upload CakePHP 1.3 related files yourself. The default directory structure of a working application is:
+[Repositório](http://github.com/croogo/croogo) contém somente a pasta 'app'. Você precisa enviar o CakePHP 1.3 para a mesma pasta. A estrutura padrão de diretórios da aplicação:
 
-* app/ (only content of this directory is available in the repository)
+* app/ (o conteúdo desta pasta está disponível somente no repositório)
 * cake/
 * vendors/
 * .htaccess
 * index.php
 
-Download latest version of CakePHP from here: [http://github.com/cakephp/cakephp/downloads](http://github.com/cakephp/cakephp/downloads).
+Download da última versão do CakePHP aqui: [http://github.com/cakephp/cakephp/downloads](http://github.com/cakephp/cakephp/downloads).
