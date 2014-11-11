@@ -1,5 +1,5 @@
-# Requirements
+# Requerimentos
 
-* HTTP Server: Apache with mod_rewrite preferred
-* PHP 5.2 or higher
-* MySQL 4.1 or higher
+* Servidor HTTP: Apache com mod_rewrite de preferência
+* PHP 5.2 ou superior
+* MySQL 4.1 ou superior
