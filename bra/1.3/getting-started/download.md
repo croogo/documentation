@@ -1,3 +1,3 @@
 # Download
 
-All versions, including the repository, are available on [GitHub](http://github.com/croogo/croogo/downloads).
+Todas as versões, incluindo o repositório, estão disponíveis em [GitHub](http://github.com/croogo/croogo/downloads).
