@@ -1,22 +1,22 @@
-# Content types
+# Tipos de Conteúdo
 
-By default, there are three content types:
+Por padrão, há três tipos de conteúdo:
 
-* **Page**: for pages
-* **Blog**: for blog posts
-* **Node**: unless you are sure of what content type to use
+* **Page**: para páginas
+* **Blog**: para posts para blog
+* **Node**: para quando não tiver certeza que tipo de conteúdo usar
 
-If you think you require a new content type, you are able to create one from admin panel.
+Se você acha que precisa de um novo tipo de conteúdo, você é capaz de criar um pelo painel admin.
 
-## Parameters
+## Parâmetros
 
-When you add or edit content types, you will notice a 'Params' field where you can enter parameters. It is expected that one parameter is entered per line with a key/value pair using equal sign as a separator. Example below:
+Quando você adiciona ou edita tipo de conteúdo, você vai notar um campo 'Params' onde você pode entrar com parâmetros. É esperado que um parâmetro seja introduzido por linha com um par chave/valor usando o sinal de igual como separador. Exemplo abaixo:
 
     my_param_key=value_here
     another_key=another_value
 
-Supported parameter keys for content types:
+Chaves de parâmetros suportadas para tipos de conteúdo:
 
-* **nodes\_per\_page**: Pagination limit for nodes
+* **nodes\_per\_page**: Limite de paginação por nodes
 
-You are free to use more keys for parameters and they will be available in a nice formatted way by [ParamsBehavior](http://github.com/croogo/croogo/blob/master/models/behaviors/params.php).
+Você é livre para usar mais chaves para os parâmetros e eles estarão disponíveis de uma forma agradável formatado por [ParamsBehavior](http://github.com/croogo/croogo/blob/master/models/behaviors/params.php).
