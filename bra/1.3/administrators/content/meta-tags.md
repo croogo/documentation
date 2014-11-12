@@ -1,8 +1,8 @@
 # Meta tags
 
-You can control meta tags for your nodes using custom fields. Use these keys:
+Você controlar meta tags para seus nodes, usando os campos personalizados (custom fields). Use estas chaves:
 
-* **meta_keywords**: for keywords
-* **meta_description**: for description
+* **meta_keywords**: para chave
+* **meta_description**: para descrição
 
-Any custom field key starting with 'meta_' will be treated as a meta tag.
+Qualquer chave do campo personalizado começando com 'meta_' será tratado como meta tag.
