@@ -1,9 +1,9 @@
 # FAQ
 
-#### What is the difference between Croogo and CakePHP?
+#### Qual é a diferença entre Croogo e CakePHP?
 
-CakePHP is a framework, and Croogo is an application built with the framework.
+CakePHP é um framework, e Croogo é uma aplicação criada com o framework.
 
-#### Is Croogo the only CakePHP powered CMS?
+#### Croogo é único CMS feito com CakePHP?
 
-No. There are others including [Infinitas](http://infinitas-cms.org) and [Wildflower](http://wf.klevo.sk).
+Não. Há outros incluindo [Infinitas](http://infinitas-cms.org) e [Wildflower](http://wf.klevo.sk).
