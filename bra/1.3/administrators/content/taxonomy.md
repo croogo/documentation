@@ -1,13 +1,13 @@
-# Taxonomy
+# Taxonomia
 
-You are free to categorize your content in as many ways as you want.
+Você é livre para categorizar seu conteúdo de muitas formas, como quiser.
 
-## Vocabulary
+## Vocabulário
 
-Vocabularies are collections of terms. For example, you have a **list** of categories (including Personal, Travel, News, etc) and we can call that list a **vocabulary**. And you can name that vocabulary 'Categories'. Same can be done for tags – a vocabulary named, 'Tags'.
+Vocabulários são coleções de termos. Por exemplo, você tem uma **lista** de categorias (incluindo Pessoal, Viagem, Novidades, etc) e nós podemos chamar lista de **vocabulário**. E você pode nomear este vocabulário de 'Categorias'. Da mesma forma você pode fazer para Tags - um vocabulário chamado, 'Tags'.
 
-By default, Croogo has two vocabularies: Categories and Tags.
+Por padrão, Croogo tem dois vocabulários: Categorias e Tags.
 
-## Term
+## Termos
 
-From above example: Personal, Travel and News are all **terms**. And they can be associated to nodes.
+A partir dos exemplos acima: Pessoal, Viagem e Novidades são todos **termos**. E eles podem ser associados a nodes.
