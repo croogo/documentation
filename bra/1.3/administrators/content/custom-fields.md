@@ -1,3 +1,3 @@
-# Custom fields
+# Campos personalizados
 
-When you create a new node, you will notice a 'Custom fields' tab. It allows you to enter extra information for your nodes which can be useful for themes.
+Quando você cria um novo node, você vai notar uma área 'Custom fields'. Permite você entrar com informações extras para seus nodes que podem ser útil para temas.
