@@ -1,5 +1,5 @@
-# Increase PHP memory limit
+# Aumentar limite da memória do PHP
 
-Minimum requirement of PHP memory limit for Croogo is 16MB, but it is recommended you set it to 32MB. To do this, add this line to your **.htaccess** file:
+ Exigência mínima da memória do PHP para o Croogo é de 16MB, mas é recomendado aumentar para 32MB. Para fazer isso, adicione esta linha no seu arquivo **.htaccess**:
 
     php_value memory_limit 32M
