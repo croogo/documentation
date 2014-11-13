@@ -1,18 +1,18 @@
-# Themes
+# Temas
 
-## How to upload?
+## Como enviar?
 
-If you have your theme in a zip file, follow these instructions:
+Se você tem seu tema em um arquivo zip, siga estas instruções:
 
-* Log in to your admin panel
-* Go to **Extensions &gt; Themes** page
-* Notice the **Upload** link on top. It will take you to a new page where you can upload the zip file.
+* Logar no seu painel administrativo
+* Vá em **Extensions &gt; Themes**
+* Observar o link **Upload**. Ele levará você a uma nova página, onde você pode enviar o arquivo zip.
 
-#### Manual upload
+#### Enviar manualmente
 
-Place your theme under /app/views/themed/your\_theme\_name
+Coloque seu plugin em /app/views/themed/your\_theme\_name
 
-## How to activate?
+## Como ativar?
 
-* Go to **Extensions &gt; Themes** page
-* Below every theme's screenshot, notice the link **Activate**. Clicking it will activate your theme.
+* Vá em **Extensions &gt; Themes**
+* Abaixo de cada imagem do tema, observe um link **Activate**. Clique e seu tema será ativado.
