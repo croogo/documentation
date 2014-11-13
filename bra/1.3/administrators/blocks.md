@@ -1,45 +1,45 @@
-# Blocks
+# Blocos
 
-Blocks are what you see in the sidebar (‘right’ region in default theme) as boxes. They belong to a particular region.
+Blocos é o que você vê no barra lateral (região `direita' no tema padrão) as caixas. Eles pertencem a uma região em particular.
 
-## Elements
+## Elementos
 
-All blocks are rendered via **block.ctp** element (found in app/views/elements/block.ctp). You can use your own element too for your blocks by editing 'element' field when adding a block.
+Todos os blocos são renderezidos via elemento **bloco.ctp** (encontrado em app/views/elements/bloco.ctp). Você pode usar seu próprio elemento também, para seus blocos editando o campo 'element' quando adiciona um block.
 
-**Tip**: If it is a plugin element, enter 'plugin\_name.element\_name'.
+**Dica**: Se é um elemento de plugin, entre com 'plugin\_name.element\_name'.
 
-## How to display a THIS and THAT in a block?
+## Como exibir Isto ou Aquilo em um bloco?
 
-You are able to show an element, menu, vocabulary (nested list of terms), or a list of nodes by entering specially formatted text in your block’s body.
+Você é capaz de mostrar um elemento, menu, vocabulário (lista de links aninhadas), ou a entrada de texto de uma lista de nodes especialmente formatada em blocos em seu corpo. 
 
-### Element
+### Elemento
 
-For an element with file name **my_element.ctp**:
+Para um elemento com nome do arquivo **my_element.php**:
 
     [element:my_element] OR [e:my_element]
 
-Passing variables to your element:
+Passando varaiáveis para seu elemento:
 
     [element:my_element myVar="value here" anotherVar="value here"]
 
-For plugin elements:
+Para elementos de plugin:
 
     [element:my_element plugin="my_plugin"]
 
 ### Menu
 
-For a Menu with alias **main**:
+Para um Menu com alias **main**:
 
     [menu:main] OR [m:main]
 
-### Vocabulary
+### Vocabulário
 
-For a Vocabulary with alias **categories**:
+Para um Vocabulário com alias **categories**:
 
     [vocabulary:categories] OR [v:categories]
 
 ### Nodes
 
-For example, you want to show a list of 5 most recent blog posts as a block:
+Por exemplo, você pode querer exibir uma lista dos 5 mais recentes posts do blog como um bloco:
 
     [node:recent_posts conditions="Node.type:blog;Node.status:1" order="Node.id DESC" limit="5"]
