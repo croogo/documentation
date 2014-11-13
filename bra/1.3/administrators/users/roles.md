@@ -1,9 +1,9 @@
-# Roles
+# Papéis
 
-All users belong to a particular Role. Croogo distinguishes users in three different roles by default:
+Todos os usuários pertencem ao um papél em particular. O Croogo distingue o usuário em três papéis diferentes por padrão:
 
-* **Admin**: The administrator or super user
-* **Registered**: Registered and logged in user
-* **Public**: Visitors who are not logged in to the site
+* **Admin**: O Administrator ou super usuário
+* **Registered**: Usuário registrado e logado
+* **Public**: Visitantes que não estão logados no site
 
-You can add more roles to suit your needs.
+Você pode adicionar mais papéis para se adequar as suas necessidades.
