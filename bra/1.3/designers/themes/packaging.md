@@ -1,3 +1,3 @@
-# Packaging
+# Empacotando
 
-Create a zip archive of the theme directory app/views/themed/my_theme. It can then later be uploaded from admin panel.
+Criar um arquivo zip da pasta do tema app/views/themed/my_theme. Ele pode, posteriormente, enviado pelo painel administrativo.
