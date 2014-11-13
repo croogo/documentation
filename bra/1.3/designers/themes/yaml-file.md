@@ -1,8 +1,8 @@
-# YAML file
+# Arquivo YAML
 
-A theme.yml file is required for every theme in Croogo. This is required because themes can store useful information like menus and regions it uses, and this way it allows Croogo to query the database and make these information available to the theme without breaking MVC.
+Um arquivo theme.yml é obrigatório a qualquer tema no Croogo. Ele é obrigatório porque temas podem armazenar informações úteis como menus e regiões, e desta forma permite o Croogo consultar o banco de dados e tornar estas informações disponíveis no tema sem quebrar o MVC.
 
-Content of an example theme.yml file at app/views/themed/my\_theme/webroot/theme.yml below:
+O conteúdo de um arquivo theme.yml de exemplo, abaixo em app/views/themed/my\_theme/webroot/theme.yml:
 
     name: Sample
     description: Sample theme for Croogo
@@ -24,12 +24,12 @@ Content of an example theme.yml file at app/views/themed/my\_theme/webroot/theme
       - categories
       - tags
 
-* **name**: your theme's name
-* **description**: your theme's description
-* **screenshot**: a small preview of your theme placed under app/views/themed/my\_theme/webroot/img/screenshot.png
-* **author**: your name
-* **authorEmail**: your email
-* **authorUrl**: your website
-* **menus**: a list of menu aliases that the theme uses
-* **regions**: a list of regions that the theme uses for showing blocks
-* **vocabularies** (optional): a list of vocabulary aliases that the theme uses
+* **name**: nome do seu tema
+* **description**: descrição do seu tema
+* **screenshot**: um pequena pré-visualização do seu tema, localizada em app/views/themed/my\_theme/webroot/img/screenshot.png
+* **author**: seu nome
+* **authorEmail**: seu email
+* **authorUrl**: seu website
+* **menus**: uma lista de alias de menus que seu tema usa
+* **regions**: uma lista de regiões que o seu tema usa para exibir blocos
+* **vocabularies** (opcional): uma lista de alias de vocabulário que o tema usa
