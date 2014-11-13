@@ -1,20 +1,20 @@
-# Locales
+# Localidades
 
-## How to upload?
+## Como enviar?
 
-If you have your locale in a zip file, follow these instructions:
+Se você tem sua localização em um arquivo zip, siga estas instruções:
 
-* Log in to your admin panel
-* Go to **Extensions &gt; Locales** page
-* Notice the **Upload** link on top. It will take you to a new page where you can upload the zip file.
+* Logar no seu painel administrativo
+* Vá em **Extensions &gt; Locales**
+* Observar o link **Upload**. Ele levará você a uma nova página, onde você pode enviar o arquivo zip.
 
-#### Manual upload
+#### Enviar manualmente
 
-If the locale is Bengali, place your locale under /app/locale/ben
+Se a localização é Brasil, coloque sua localização sobre /app/locale/ben
 
-## How to activate?
+## Como ativar?
 
-After uploading your locale, you need to activate it.
+Após enviar sua localização, você precisa ativá-lo.
 
-* From your admin panel, go to **Extensions &gt; Locales** page
-* Clicking on **Activate** link will activate your locale
+* Do seu painel administrativo, vá na página **Extensions &gt; Locales**
+* Clique em **Active** e sua localização será ativada
