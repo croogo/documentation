@@ -1,5 +1,5 @@
-# Comment
+# Comentário
 
-* **Level**: Depth of threaded comments.
-* **Feed Limit**: Number of comments to show in RSS feed.
-* **Date Time Format**: In the format as you would use in a php date() function. For example: 'D, M d Y H:i:s'.
+* **Level**: Profundidade de comentários encadeados.
+* **Feed Limit**: Número de comentários a exibir no RSS feed.
+* **Date Time Format**: Em um formato que você usaria em uma função date() do PHP. Por exemplo: 'D, M d Y H:i:s'.
