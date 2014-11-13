@@ -1,3 +1,3 @@
-# File manager
+# Gerenciador de arquivos
 
-Croogo comes with a file manager for browsing, uploading, as well as editing files on the server. This is intended towards advanced users who need to edit files (for example, CSS) quickly right from the browser.
+Croogo vem com um gerenciador de arquivos pelo navegador, enviando, bem como editar arquivos no servidor. Isto é destinado a usuários avançados que precisem editar arquivos (por exemplo, CSS) rapidamente pelo navegador.
