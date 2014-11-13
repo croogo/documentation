@@ -1,3 +1,3 @@
-# Writing
+# Escrita
 
-* **Enable WYSIWYG Editor**: Will load editors like Tinymce if they are active.
+* **Enable WYSIWYG Editor**: Carregará editores tipo TinyMCE, se estiver ativo.
