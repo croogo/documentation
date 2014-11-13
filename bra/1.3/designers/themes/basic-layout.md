@@ -1,8 +1,8 @@
-# Basic layout
+# Layout básico
 
-Lets call our theme **my\_theme**, so we need to place our default layout at /app/views/themed/my\_theme/layouts/default.ctp.
+Vamos chamar nosso tema **my\_theme**, então nós precisamos colocar o nosso layout padrão em /app/views/themed/my\_theme/layouts/default.ctp.
 
-At the beginning, we have something like this:
+No início, nós temos algo como isto:
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -13,13 +13,13 @@ At the beginning, we have something like this:
         </body>
     </html>
 
-## The HEAD
+## O HEAD
 
-This is where your page title, meta information, css, javascript info are shown. Croogo has a [LayoutHelper](http://github.com/croogo/croogo/blob/master/views/helpers/layout.php) to make things easier for you. You also get to use CakePHP's core helpers for more general tasks.
+Aqui é onde informações como título da página, meta informações, css, javascript são mostradas. O Croogo tem um [LayoutHelper](http://github.com/croogo/croogo/blob/master/views/helpers/layout.php) para facilitar as coisas para você. Você também pode usar os Helpers do CakePHP para tarefas mais genéricas. 
 
-#### Page title
+#### Título da página
 
-**$title\_for\_layout** variable is set from your controller (can be done from views too). And **Configure::read('Site.title')** is your website's title that you can set from admin panel under **Settings &gt; Site**.
+**$title\_for\_layout** esta variável é setada pelo seu Controller (pode ser feito pela View também). E o **Configure::read('Site.title')** é o título do seu website que você pode setar pelo painel administrativo, em **Settings &gt; Site**.
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -27,7 +27,7 @@ This is where your page title, meta information, css, javascript info are shown.
 
 #### Meta tags
 
-This is as simple as calling a method from LayoutHelper. **$layout->meta()** outputs all meta tags for your content.
+Isto é tão simples que chamando um método de LayoutHelper **$layout->meta()** mostra todas as meta tags para o seu conteúdo.
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -36,7 +36,7 @@ This is as simple as calling a method from LayoutHelper. **$layout->meta()** out
 
 #### Feeds
 
-**$layout->feed()** will output your RSS feed link for your promoted content.
+**$layout->feed()** irá mostrar o link do RSS feeds para o conteúdo marcado com status promovido.
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -48,7 +48,7 @@ This is as simple as calling a method from LayoutHelper. **$layout->meta()** out
 
 #### CSS
 
-If you have your css file placed under /app/views/themed/my\_theme/webroot/css/theme.css:
+O arquivo css deve ficar localizado em /app/views/themed/my\_theme/webroot/css/theme.css:
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -61,7 +61,7 @@ If you have your css file placed under /app/views/themed/my\_theme/webroot/css/t
 
 #### Javascript
 
-Croogo has a **Croogo** object in javascript that stores information like the application's base path, etc. This is useful for other javascript related tasks. It can done by calling a single method **$layout-&gt;js()**:
+O Croogo tem um objeto **Croogo** em javascript que armazena informações como o caminho base da aplicação, etc. Isto é útil para outras tarefas em javascript relacionadas. Pode ser feito chamando um método simples **$layout-&gt;js()**:
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -73,7 +73,7 @@ Croogo has a **Croogo** object in javascript that stores information like the ap
         ?>
     </head>
 
-CakePHP allows you to load javascript from your views so they go directly inside HEAD. For this, you need to echo out the variable **$scripts\_for\_layout**.
+O CakePHP permite você carregar javascript da view, e ele joga diretamente para dentro do HEAD. Para isso, você precisa dar echo na variável **$scripts\_for\_layout**.
 
     <head>
         <title><?php echo $title_for_layout . ' | ' . Configure::read('Site.title'); ?></title>
@@ -86,13 +86,13 @@ CakePHP allows you to load javascript from your views so they go directly inside
         ?>
     </head>
 
-## The BODY
+## O BODY
 
-This is where you output the actual content that is visible in the browser.
+Este é onde você vai imprimir o conteúdo atual que estará visível no navegador.
 
-#### Content
+#### Conteúdo
 
-The output generated from your view is available in the variable **$content\_for\_layout**:
+O conteúdo gerado pela view está disponível na variável **$content\_for\_layout**:
 
     <body>
         <div id="content">
@@ -102,7 +102,7 @@ The output generated from your view is available in the variable **$content\_for
 
 #### Menu
 
-If you want to show a menu with alias **main**, it is as simple as **$layout->menu('main')**. This will generate a nested unordered list of your main menu:
+Se você quiser exibir um menu com alias **main**, é tão simples como **$layout->menu('main')**. Será gerada uma lista não ordenada aninhada do seu menu main:
 
     <body>
         <div id="nav">
@@ -114,9 +114,9 @@ If you want to show a menu with alias **main**, it is as simple as **$layout->me
         </div>
     </body>
 
-#### Blocks
+#### Blocos
 
-If you want to show the blocks that belong to **right** region, just add **$layouts->blocks('right')**:
+Se você quer mostrar o bloco que pertence a uma região **right**, apenas adicione **$layouts->blocks('right')**:
 
     <body>
         <div id="nav">
@@ -132,7 +132,7 @@ If you want to show the blocks that belong to **right** region, just add **$layo
         </div>
     </body>
 
-## Final code of default.ctp
+## Código final de default.ctp
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
