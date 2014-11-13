@@ -1,12 +1,12 @@
-# File structure
+# Estrutura de Arquivos
 
-A theme is identified by it's unique alias. If you have your theme under the directory app/views/themed/my\_theme, then your theme’s alias is **my\_theme**.
+Um tema é identificado por um alias único. Se você tem seu tema na pasta app/views/themed/my\_theme, então o alias do seu tema é **my\_theme**.
 
-A theme.yml file is also required. You can see the YAML file used for default theme here: [theme.yml](http://github.com/croogo/croogo/blob/master/webroot/theme.yml).
+O arquivo theme.yml é obrigatório. Você pode ver o arquivo YAML usado pelo tema padrão aqui [theme.yml](http://github.com/croogo/croogo/blob/master/webroot/theme.yml).
 
-## Structure
+## Estrutura
 
-For example, you have a theme with alias my_theme. All your files should be placed like this:
+Por exemplo, você tem um tema com o alias my_theme. Todos os arquivos devem ser colocados como isso:
 
 * app/views/themed/my_theme/
    * elements/
@@ -26,4 +26,4 @@ For example, you have a theme with alias my_theme. All your files should be plac
          * screenshot.png
       * theme.yml
 
-Do not forget the theme.yml file. Your theme will not be available in the admin panel otherwise.
+Não esqueça do arquivo theme.yml. Caso contrário, seu tema não estará disponível no painel administrativo.
