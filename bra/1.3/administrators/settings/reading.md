@@ -1,4 +1,4 @@
-# Reading
+# Leitura
 
-* **Nodes Per Page**: Pagination limit for nodes
-* **Date Time Format**: In the format as you would use in a php date() function. For example: 'D, M d Y H:i:s'.
+* **Nodes Per Page**: Limite de nodes para paginação
+* **Date Time Format**: Em um formato que você usaria em uma função date() do PHP. Por exemplo: 'D, M d Y H:i:s'.
