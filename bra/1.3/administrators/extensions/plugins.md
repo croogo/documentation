@@ -1,20 +1,20 @@
 # Plugins
 
-## How to upload?
+## Como enviar?
 
-If you have your plugin in a zip file, follow these instructions:
+Se você tem seu plugin em um arquivo zip, siga estas instruções:
 
-* Log in to your admin panel
-* Go to **Extensions &gt; Plugins** page
-* Notice the **Upload** link on top. It will take you to a new page where you can upload the zip file.
+* Logar no seu painel administrativo
+* Vá em **Extensions &gt; Plugins**
+* Observar o link **Upload**. Ele levará você a uma nova página, onde você pode enviar o arquivo zip.
 
-#### Manual upload
+#### Enviar manualmente
 
-Place your plugin under /app/plugins/your\_plugin\_name
+Coloque seu plugin em /app/plugins/your\_plugin\_name
 
-## How to activate/deactivate?
+## Como ativar/desativar?
 
-After uploading your plugin, you need to activate it.
+Após enviar o seu plugin, você precisa ativá-lo.
 
-* From your admin panel, go to **Extensions &gt; Plugins** page
-* Clicking on cross/tick icon will activate or deactivate your plugin
+* Do seu painel administrativo, vá na página **Extensions &gt; Plugins**
+** Clique na ícone cruz/riscado para ativar ou desativar seu plugin
