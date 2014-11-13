@@ -1,7 +1,7 @@
 # Site
 
-* **Title**: Your site title.
-* **Tagline**: Your site's tagline.
-* **Email**: Globally used email address for the application.
-* **Timezone**: 0 for GMT
-* **Status**: Uncheck this if you want visitors to see a 'site down for maintenance' message.
+* **Title**: Título do seu site.
+* **Tagline**: Descrição do seu site.
+* **Email**: Email usado globalmente pela aplicação.
+* **Timezone**: 0 para GMT
+* **Status**: Desmarque isto se você quer que o visitante veja uma mensagem 'site down for maintenance'.
