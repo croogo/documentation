@@ -1,3 +1,3 @@
-# Service
+# Serviço
 
-This is where you manage your API keys for third party web services like Akismet and Recaptcha.
+Aqui é onde você gerencia suas chaves API de serviços web de terceiros, como Akismet e Recaptcha.
