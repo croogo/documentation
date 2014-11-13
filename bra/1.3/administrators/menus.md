@@ -1,9 +1,9 @@
 # Menus
 
-Menus are collection of links. For example, the main menu that contains links for Home, About, and Contact.
+Menus são coleções de links. Por exemplo, o menu principal que contém links para Home, Sobre, e Contato.
 
-## Reverse routing
+## Roteamento reverso
 
-For taking advantage of reverse routing in CakePHP, enter URLs for links like this:
+Para tirar proveito do roteamento reverso no CakePHP, entre com URLs para os links desta forma:
 
     controller:nodes/action:view/type:page/slug:my-page
