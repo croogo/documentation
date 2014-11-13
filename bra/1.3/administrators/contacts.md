@@ -1,3 +1,3 @@
-# Contacts
+# Contatos
 
-Almost every website needs some sort of contact form where visitors can submit a message. Croogo has this feature built in.
+Quase todo website precisa de algum tipo de formulário de contato, onde o visitante pode enviar uma mensagem. Croogo tem isto nativamente.
