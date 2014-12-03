@@ -1,3 +1,6 @@
 # Croogo Documentation
 
-Visit [http://wiki.croogo.org](http://wiki.croogo.org) for more information.
+This repository is retired.  It holds the source files for the old
+[wiki](http://wiki.croogo.org).
+
+Please use the new [docs](https://github.com/croogo/docs) repository.
