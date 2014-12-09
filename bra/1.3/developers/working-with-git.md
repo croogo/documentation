@@ -1,8 +1,8 @@
-# Working with Git
+# Trabalhando com Git
 
-The git repository of Croogo is hosted at [GitHub](http://github.com/croogo/croogo). The repository contains content of the 'app' directory only so you need to [download CakePHP](http://github.com/cakephp/cakephp/downloads) before cloning it.
+O repositório git do Croogo está em [GitHub](http://github.com/croogo/croogo). O repositório contém apenas o conteúdo da pasta 'app', então antes você precisa clonar isto [download CakePHP](http://github.com/cakephp/cakephp/downloads).
 
-Once you have downloaded and extracted the archive of CakePHP, browse to the 'app' directory and empty it. Now run the following:
+Uma vez que você tenha baixado e descompactado o arquivo do CakePHP, navegue para a pasta 'app' e esvazie ela. Agora, execute o seguinte:
 
     $ cd app
     $ git init
@@ -11,11 +11,11 @@ Once you have downloaded and extracted the archive of CakePHP, browse to the 'ap
     $ git submodule init
     $ git submodule update
 
-## Contributing
+## Contribuindo
 
-The best way to contribute code to the core is by forking the repository on GitHub, making changes, and then sending a pull request. To do this:
+A melhor forma de contribuir com o código do core, é fazendo um forking do repositório no Github, fazendo alterações, e então enviando um pull request. Para fazer isso:
 
-* Get yourself a [GitHub](http://github.com) account
+* Crie um conta no [GitHub](http://github.com) 
 * Fork [Croogo](http://github.com/croogo/croogo). 
-* Then you will have your fork at http://github.com/yourusername/croogo. 
-* Make any changes to it, and send a pull request.
+* Então você terá um fork em http://github.com/seuusername/croogo. 
+* Faça qualquer alteração, e envie um pull request.
