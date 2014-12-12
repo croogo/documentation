@@ -1,16 +1,17 @@
 # Controllers
 
-Original source: [http://book.cakephp.org/view/955/Controllers](http://book.cakephp.org/view/955/Controllers).
+Fonte original: [http://book.cakephp.org/view/955/Controllers](http://book.cakephp.org/view/955/Controllers).
 
-## What is a Controller?
+## O que é um Controller?
 
-A controller is used to manage the logic for a part of your application. Most commonly, controllers are used to manage the logic for a single model. For example, if you were building a site for an online bakery, you might have a RecipesController and a IngredientsController managing your recipes and their ingredients. In CakePHP, controllers are named after the model they handle, in plural form.
+Um controller é usado para gerenciar a lógica para uma parte da sua aplicação. Mais comumente, controllers são usados para gerenciar a lógica de um único model. Por exemplo, se você estiver construindo um site para uma padaria, você pode ter um RecipesController e um IngredientsController para gerenciar suas receitas e seus ingredientes. No CakePHP, controllers são nomeados após o manuseio do model deles, na forma de plural.
 
-The Recipe model is handled by the RecipesController, the Product model is handled by the ProductsController, and so on.
+O model Recipe é manuseado pelo RecipesController, o model Product é manuseado pelo ProductsController, e assim por diante.
 
-Your application's controllers are classes that extend the CakePHP AppController class, which in turn extends a core Controller class, which are part of the CakePHP library. The AppController class can be defined in /app/app_controller.php and it should contain methods that are shared between all of your application’s controllers.
+Na sua aplicação os controllers são classes que extendem a classe AppController do CakePHP, que por sua vez entende a classe Controller do core, que é parte da biblioteca do CakePHP. A classe AppController pode ser definida em /app/AppController.php e ela deve conter métodos que serão compartilhados entre todos os controllers da sua aplicação.
 
-Controllers can include any number of methods which are usually referred to as actions. Actions are controller methods used to display views. An action is a single method of a controller.
+Os Controllers podem incluir qualquer número de métodos que geralmente se refere às actions. Actions são métodos do controller, usados para exibir as views. Uma action é um simples método do controller.
+
 
 CakePHP’s dispatcher calls actions when an incoming request matches a URL to a controller’s action (refer to "Routes Configuration" for an explanation on how controller actions and parameters are mapped from the URL).
 
