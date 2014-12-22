@@ -1,14 +1,14 @@
 # Behaviors
 
-Original source: [http://book.cakephp.org/view/1071/Behaviors](http://book.cakephp.org/view/1071/Behaviors).
+Fonte original: [http://book.cakephp.org/view/1071/Behaviors](http://book.cakephp.org/view/1071/Behaviors).
 
-Model behaviors are a way to organize some of the functionality defined in CakePHP models. They allow us to separate logic that may not be directly related to a model, but needs to be there. By providing a simple yet powerful way to extend models, behaviors allow us to attach functionality to models by defining a simple class variable. That's how behaviors allow models to get rid of all the extra weight that might not be part of the business contract they are modeling, or that is also needed in different models and can then be extrapolated.
+Os behaviors do model são formas de organizar algumas das funcionalidades definidas nos models do CakePHP. Eles nos permitem separar  lógica que podem não estar diretamente relacionadas ao model, mas é preciso estar lá. Para prover uma simples, mas ainda poderosa forma de extender models, os behaviors nos permitem anexar funcionalidades aos models definindo uma simples classe variável. Isso é como os behaviors permitem models para se livrar de todo o peso extra que pode não ser parte do contrato de negócio que estão modelando ou que também é necessária em diferentes modelos e podem ser extrapolados.
 
-As an example, consider a model that gives us access to a database table which stores structural information about a tree. Removing, adding, and migrating nodes in the tree is not as simple as deleting, inserting, and editing rows in the table. Many records may need to be updated as things move around. Rather than creating those tree-manipulation methods on a per model basis (for every model that needs that functionality), we could simply tell our model to use the TreeBehavior, or in more formal terms, we tell our model to behave as a Tree. This is known as attaching a behavior to a model. With just one line of code, our CakePHP model takes on a whole new set of methods that allow it to interact with the underlying structure.
+Por exemplo, considere um model que nos dá acesso a uma tabela de banco de dados que armazena informações na estrutura de árvores. Removendo, adicionando, e migrando nós em uma árvore não é tão fácil como excluir, inserir, e editar registros na tabela. Muitos registros podem precisar ser atualizado conforme as coisas movem-se ao redor. Em vez de criar aqueles métodos de manipulação em árvores por modelo base (para cada model que precisar desta funcionalidade), nós poderiamos simplificar dizendo ao nosso model para usar o TreeBehavior, ou em termos formais, nós dizemos ao nosso model se comporte como uma árvore. Isto é conhecido como anexar um comportamento para um modelo. Com apenas uma linha de código, o nosso modelo CakePHP assume um novo conjunto de métodos que permitem interagir com a estrutura subjacente.
 
-## Code
+## Código
 
-If your Behavior's name is **Example**, it would be found at /app/models/behaviors/example.php.
+Se o nome do seu behavior é **Example**, ele seria localizado em /app/Model/Behavior/ExampleBehavior.php
 
     <?php
     class ExampleBehavior extends ModelBehavior {
@@ -39,11 +39,11 @@ If your Behavior's name is **Example**, it would be found at /app/models/behavio
     
     ?>
 
-#### Plugin behaviors
+#### Behaviors de Plugin
 
-If it is Example plugin's behavior, it would be found at /app/plugins/example/models/behaviors/example.php.
+Se fosse um behavior do plugin Example, seria localizado em /app/Plugin/Example/Model/Behavior/ExampleBehavior.php
 
-#### Using Behaviors in Models
+#### Usando Behaviors nos Models
 
     <?php
     class Recipe extends AppModel {
@@ -51,7 +51,7 @@ If it is Example plugin's behavior, it would be found at /app/plugins/example/mo
         public $name = 'Recipe';
 
         public $actsAs = array(
-            'Example' => array( // 'Example.Example' if it is from Example plugin
+            'Example' => array( // 'Example.Example' se for de um plugin Example
                 'config1' => 'value here',
                 'config2' => 'value here',
             ),
