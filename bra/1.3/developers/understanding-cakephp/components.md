@@ -1,40 +1,40 @@
-# Components
+# Componentes
 
-Original source: [http://book.cakephp.org/view/993/Components](http://book.cakephp.org/view/993/Components).
+Fonte original: [http://book.cakephp.org/view/993/Components](http://book.cakephp.org/view/993/Components).
 
-## What is a Component?
+## O que é um Component?
 
-Components are packages of logic that are shared between controllers. If you find yourself wanting to copy and paste things between controllers, you might consider wrapping some functionality in a component.
+Components são pacotes de lógicas que são compartilhadas entre controllers. Se você se pega copiando e colando coisas entre controllers, você pode considerar envolver algumas funcionalidades em um componente.
 
-## Code
+## Código
 
-Assuming you want to create an Example component, it would be found at /app/controllers/components/example.php.
+Assumindo que você quer criar um componente Example, ele seria encontrado em /app/Controller/Component/ExampleComponent.php
 
     <?php
-    class ExampleComponent extends Object {
+    class ExampleComponent extends Component {
     
         public function myMethod() {
-            // your code here
+            // seu código aqui
         }
     
     }
     ?>
 
-#### Plugin components
+#### Components de Plugin
 
-If it Example plugin's component, it would be found at /app/plugins/example/controllers/components/example.php.
+Se fosse um component do plugin Example, ele seria encontrado em /app/Plugin/Example/Controller/Component/ExampleComponent.php
 
-#### Using Components in Controllers
+#### Usando Components nos Controllers.
 
     <?php
     class RecipesController extends AppController {
 
         public $components = array(
-            'Example', // 'Example.Example' if it is from Example plugin
+            'Example', // 'Example.Example' se for de um plugin Example
         );
     
         function view($id)     {
-            // call component method
+            // chama o método do Component
             $this->Example->myMethod();
         }
     
