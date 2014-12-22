@@ -12,26 +12,25 @@ Na sua aplicação os controllers são classes que extendem a classe AppControll
 
 Os Controllers podem incluir qualquer número de métodos que geralmente se refere às actions. Actions são métodos do controller, usados para exibir as views. Uma action é um simples método do controller.
 
+O dispatcher do CakePHP chama uma action quando a entrada de uma requisição de URL corresponder com uma action do controller (veja em "Configuração de Rotas" para uma explicação em como a action do controller e parâmetros são mapeados da URL).
 
-CakePHP’s dispatcher calls actions when an incoming request matches a URL to a controller’s action (refer to "Routes Configuration" for an explanation on how controller actions and parameters are mapped from the URL).
+## Código
 
-## Code
-
-Returning to our online bakery example, our RecipesController might contain the view(), share(), and search() actions. The controller would be found in /app/controllers/recipes\_controller.php.
+Retornando ao nosso exemplo de padaria online, nosso RecipesController pode conter as actions view(), share(), e search(). O controller seria encontrado em /app/Controller/RecipesController.php
 
     <?php
     class RecipesController extends AppController {
         
         function view($id)     {
-            //action logic goes here..
+            //a lógica da action vem aqui..
         }
         
         function share($customer_id, $recipe_id) {
-            //action logic goes here..
+            //a lógica da action vem aqui..
         }
         
         function search($query) {
-            //action logic goes here..
+            //a lógica da action vem aqui..
         }
     
     }
@@ -39,8 +38,8 @@ Returning to our online bakery example, our RecipesController might contain the 
 
 #### Plugin controllers
 
-If it is Recipes plugin's controller, it would be found at /app/plugins/recipes/controllers/recipes\_controller.php.
+Se fosse o controller do plugin Recipes, seria encontrado em /app/Plugin/Recipes/Controller/RecipesController.php
 
-## How to see it in action?
+## Como ver isso em ação?
 
-Controllers can be accessed from your browser from the address **yoursite.com/controller\_name/action\_name**. But it will show errors now, and we will require to create models and views for it too.
+Os controllers podem ser acessados pelo seu browser do endereço **youriste.com/controller\_name/action\_name**. Mas isso exibirá erros, e nos vai ser requerido a criar model e view para  isso também.
