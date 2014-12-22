@@ -1,16 +1,16 @@
 # Models
 
-Original source: [http://book.cakephp.org/view/1000/Models](http://book.cakephp.org/view/1000/Models).
+Fonte original: [http://book.cakephp.org/view/1000/Models](http://book.cakephp.org/view/1000/Models).
 
-## What is a Model?
+## O que é um Model?
 
-Models represent data and are used in CakePHP applications for data access. A model usually represents a database table but can be used to access anything that stores data such as files, LDAP records, iCal events, or rows in a CSV file.
+Models representam dados e são usados em aplicações CakePHP para acessar dados. Um model geralmente representa uma tabela do bando de dados, mas pode ser usado para acessar qualquer coisa que armazene dados como arquivos, registros LDPA, eventos iCal, ou linhas de arquivos CSVs.
 
-A model can be associated with other models. For example, a Recipe may be associated with the Author of the recipe as well as the Ingredient in the recipe.
+Um model pode ser associado com outros models. Por exemplo, um model Recipe pode ser associado com o Autor de receitas tanto quanto o Igredient da receita.
 
-## Code
+## Código
 
-If you have a table named 'recipes' (with columns id, title, body), the model name would be **Recipe** and found at /app/models/recipe.php.
+Se você tem uma tabela chamada 'recipes' (com colunas id, title, body), o nome do model seria **Recipe** e encontrado em /app/Model/Recipe.php
 
     <?php
     class Recipe extends AppModel {
@@ -20,25 +20,25 @@ If you have a table named 'recipes' (with columns id, title, body), the model na
     }
     ?>
 
-#### Plugin models
+#### Models de Plugin
 
-If it is Recipes plugin's model, it would be found at /app/plugins/recipes/models/recipe.php.
+Se fosse model do plugin Recipes, seria encontrado em /app/Plugin/Recipes/Model/Recipe.php
 
-#### Using Models in Controllers
+#### Usando Models em Controllers
 
     <?php
     class RecipesController extends AppController {
     
         public $uses = array(
-            'Recipe', // 'Recipes.Recipe' if it is from Recipes plugin
+            'Recipe', // 'Recipes.Recipe' se for de um plugin Recipes
         );
     
         public function view($id)     {
-            // retrieve record with ID 123 from recipes table
+            // recuperar registro com ID 123 da tabela recipes
             $recipe = $this->Recipe->findById(123);
     
-            // set the $recipe variable so it can be used by views later
-            $this->set('recipe', $recipe); // or $this->set(compact('recipe'));
+            // seta a variável $recipe então pode ser usada pela view depois
+            $this->set('recipe', $recipe); // ou $this->set(compact('recipe'));
         }
 
     }
