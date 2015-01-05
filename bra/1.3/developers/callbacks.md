@@ -2,68 +2,68 @@
 
 ## Components
 
-The following callbacks are [supported for components](http://book.cakephp.org/view/996/Creating-Components#MVC-Class-Access-Within-Components-998) by CakePHP.
+Os callbacks seguintes são [suportados por components](http://book.cakephp.org/view/996/Creating-Components#MVC-Class-Access-Within-Components-998) pelo CakePHP.
 
-* **initialize**: Called before Controller::beforeFilter()
-* **startup**: Called after the Controller::beforeFilter() and before the controller action
-* **beforeRender**: Called after the Controller::beforeRender(), after the view class is loaded, and before the Controller::render()
-* **shutdown**: Called after Controller::render() and before the output is printed to the browser.
+* **initialize**: Chamado antes do Controller::beforeFilter()
+* **startup**: Chamado depois do Controller::beforeFilter() e antes da action do controller
+* **beforeRender**: Chamado depois do Controller::beforeRender(), depois da classe view ser carregada, e antes do Controller::render()
+* **shutdown**: Chamada depois de Controller::render() e antes da saída ser exibida no browser.
 
-#### Code
+#### Código
 
     <?php
-    class ExampleComponent extends Object {
+    class ExampleComponent extends Component {
     
-        //called before Controller::beforeFilter()
+        //chamada antes de Controller::beforeFilter()
         public function initialize(&$controller, $settings = array()) {
-            // saving the controller reference for later use
+            // salvando a referência do controller para ser usado depois
             $this->controller =& $controller;
         }
     
-        //called after Controller::beforeFilter()
+        //chamado depois de Controller::beforeFilter()
         public function startup(&$controller) {
         }
     
-        //called after Controller::beforeRender()
+        //chamado depois de Controller::beforeRender()
         public function beforeRender(&$controller) {
         }
         
-        //called after Controller::render()
+        //chamado depois de Controller::render()
         public function shutdown(&$controller) {
         }
     
-        //called before Controller::redirect()
+        //chamado antes de Controller::redirect()
         public function beforeRedirect(&$controller, $url, $status=null, $exit=true) {
         }
     
         public function redirectSomewhere($value) {
-            // utilizing a controller method
+            // utilizando um método no controller
             $this->controller->redirect($value);
         }
     
     }
     ?>
 
-Learn more about components from [http://book.cakephp.org/view/993/Components](http://book.cakephp.org/view/993/Components).
+Leia mais sobre components em [http://book.cakephp.org/view/993/Components](http://book.cakephp.org/view/993/Components).
 
 ## Helpers
 
-The following callbacks are [supported for helpers](http://book.cakephp.org/view/1097/Creating-Helpers#Callback-method-1099) by CakePHP:
+Os callbacks seguintes são [suportados por helpers](http://book.cakephp.org/view/1097/Creating-Helpers#Callback-method-1099) pelo CakePHP:
 
-* **beforeRender**: Called before the view file is rendered.
-* **afterRender**: Called after the view file is rendered but before the layout has been rendered.
-* **beforeLayout**: Called before the layout is rendered.
-* **afterLayout**: Called after the layout has rendered.
+* **beforeRender**: Chamado antes da view ser renderizada.
+* **afterRender**: Chamado depois da view ser renderizada mas antes do layout ser renderizado.
+* **beforeLayout**: Chamado antes do layout ser renderizado.
+* **afterLayout**: Chamado depois do layout ser renderizado.
 
-#### Extra callbacks by Croogo for better integration
+#### Callbacks extras do Croogo para melhor integração
 
-* **afterSetNode**: Called after LayoutHelper::setNode(). A good place to modify node content.
-* **beforeNodeInfo**: Called before LayoutHelper::nodeInfo().
-* **afterNodeInfo**: Called after LayoutHelper::nodeInfo().
-* **beforeNodeBody**: Called before LayoutHelper::nodeBody().
-* **afterNodeBody**: Called after LayoutHelper::nodeBody().
-* **beforeNodeMoreInfo**: Called before LayoutHelper::nodeMoreInfo().
-* **afterNodeMoreInfo**: Called after LayoutHelper::nodeMoreInfo()
+* **afterSetNode**: Chamado depois de LayoutHelper::setNode(). Um bom lugar para mudar o conteúdo.
+* **beforeNodeInfo**: Chamado antes de LayoutHelper::nodeInfo().
+* **afterNodeInfo**: Chamado depois de LayoutHelper::nodeInfo().
+* **beforeNodeBody**: Chamado antes de LayoutHelper::nodeBody().
+* **afterNodeBody**: Chamado depois de LayoutHelper::nodeBody().
+* **beforeNodeMoreInfo**: Chamado antes de LayoutHelper::nodeMoreInfo().
+* **afterNodeMoreInfo**: Chamado depois de LayoutHelper::nodeMoreInfo()
 
 #### Code
 
@@ -88,9 +88,9 @@ The following callbacks are [supported for helpers](http://book.cakephp.org/view
         }
     
         public function afterSetNode() {
-            // field values can be changed from hooks
+            // valor dos campos podem ser alterados aqui
             $currentTitle = $this->Layout->node('title');
-            $modifiedTitle = $currentTitle . ' [Modified by ExampleHelper]';
+            $modifiedTitle = $currentTitle . ' [Modificado por ExampleHelper]';
             $this->Layout->setNodeField('title', $modifiedTitle);
         }
     
@@ -120,4 +120,4 @@ The following callbacks are [supported for helpers](http://book.cakephp.org/view
     }
     ?>
 
-Learn more about helpers from [http://book.cakephp.org/view/1095/Helpers](http://book.cakephp.org/view/1095/Helpers).
+Aprenda mais sobre helpers em [http://book.cakephp.org/view/1095/Helpers](http://book.cakephp.org/view/1095/Helpers).
